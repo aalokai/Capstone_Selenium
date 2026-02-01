@@ -1,0 +1,25 @@
+BooksWagon
+├── pom.xml
+├── src
+│   ├── main
+│   │   └── java
+│   │       ├── base
+│   │       │   └── BaseTest.java
+│   │       ├── pages
+│   │       │   ├── HomePage.java
+│   │       │   ├── LoginPage.java
+│   │       │   ├── SearchResultsPage.java
+│   │       │   ├── CartPage.java
+│   │       │   ├── AddressPage.java
+│   │       │   └── PaymentPage.java
+│   │       └── reporting
+│   │           └── ExtentManager.java
+│   └── test
+│       ├── java
+│       │   └── tests
+│       │       ├── LoginTest.java
+│       │       └── EndToEndPurchaseTest.java
+│       └── resources
+│           └── testng.xml
+└── target
+    └── extent-reports
